@@ -29,5 +29,72 @@
       "tags": ["cá nhân", "giải trí"],
       "color": "#0000FF"
     }
+  ],
+  "accounts": [
+    {
+      "id": 101,
+      "userId": 1,
+      "username": "quynhnhu674",
+      "password": "06072004",
+      "status": "active",
+      "lastLogin": "2025-04-09T20:30:00.000Z",
+      "createdAt": "2025-04-01T08:00:00.000Z"
+    },
+    {
+      "id": 102,
+      "userId": 2,
+      "username": "khanhduy234",
+      "password": "ppkkdd234",
+      "status": "active",
+      "lastLogin": "2025-04-09T20:35:00.000Z",
+      "createdAt": "2025-04-02T11:00:00.000Z"
+    }
+  ],
+  "noteAccounts": [
+    {
+      "id": 1,
+      "noteId": 1,
+      "accountId": 101,
+      "role": "owner",
+      "createdAt": "2025-04-09T20:00:00.000Z",
+      "username": "quynhnhu674",
+      "password": "06072004"
+    },
+    {
+      "id": 2,
+      "noteId": 1,
+      "accountId": 102,
+      "role": "editor",
+      "createdAt": "2025-04-09T20:05:00.000Z",
+      "username": "khanhduy234",
+      "password": "ppkkdd234"
+    },
+    {
+      "id": 3,
+      "noteId": 2,
+      "accountId": 101,
+      "role": "owner",
+      "createdAt": "2025-04-08T10:00:00.000Z",
+      "username": "quynhnhu674",
+      "password": "06072004"
+    },
+    {
+      "id": 4,
+      "noteId": 3,
+      "accountId": 101,
+      "role": "viewer",
+      "createdAt": "2025-04-07T12:00:00.000Z",
+      "username": "quynhnhu674",
+      "password": "06072004"
+    },
+    {
+      "id": 5,
+      "noteId": 2,
+      "accountId": 102,
+      "role": "viewer",
+      "createdAt": "2025-04-08T10:15:00.000Z",
+      "username": "khanhduy234",
+      "password": "ppkkdd234"
+    }
   ]
 }
