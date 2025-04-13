@@ -121,4 +121,51 @@
       "imagePath": null
     }
   ]
+  "accounts": [
+    {
+      "id": 1,
+      "userId": 101,
+      "username": "quynhnhu",
+      "password": "06072004",
+      "status": "active",
+      "lastLogin": "2024-07-28T10:00:00Z",
+      "createdAt": "2024-07-24T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 102,
+      "username": "nhu",
+      "password": "2661672",
+      "status": "inactive",
+      "lastLogin": "2024-07-27T15:30:00Z",
+      "createdAt": "2024-07-24T11:00:00Z"
+    },
+    {
+      "id": 3,
+      "userId": 103,
+      "username": "lenhu",
+      "password": "19922661",
+      "status": "active",
+      "lastLogin": "2024-07-28T09:45:00Z",
+      "createdAt": "2024-07-25T08:00:00Z"
+    },
+    {
+      "id": 4,
+      "userId": 104,
+      "username": "nhunhu",
+      "password": "lenhu2661",
+      "status": "pending",
+      "lastLogin": "2024-07-26T12:00:00Z",
+      "createdAt": "2024-07-25T14:00:00Z"
+    },
+    {
+      "id": 5,
+      "userId": 105,
+      "username": "nhule",
+      "password": "6742661",
+      "status": "active",
+      "lastLogin": "2024-07-28T11:15:00Z",
+      "createdAt": "2024-07-26T10:30:00Z"
+    }
+  ]
 }
